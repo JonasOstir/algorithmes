@@ -10,10 +10,16 @@ class Reverse {
     let reversed = '';
 
     for (let ch of str) {
-      reversed = ch + reverserd;
+      reversed = ch + reversed;
     }
 
-    return reverserd;
+    return reversed;
+  }
+
+  reverse3(str) {
+    str.split('').reduce((acc, ch) => {
+      return ch + acc;
+    });
   }
 }
 

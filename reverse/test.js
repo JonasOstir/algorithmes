@@ -8,11 +8,11 @@ test('Definded', () => {
 
 test('Reversed string', () => {
   expect(r.reverse('abc')).toEqual('cba');
-//  expect(r.reverse2('abc')).toEqual('cba');
+  expect(r.reverse2('abc')).toEqual('cba');
 });
 
 test('Reversed string', () => {
   expect(r.reverse('   Jonas')).toEqual('sanoJ   ');
-  // expect(r.reverse2('   Jonas')).toEqual('sanoJ   ');
+  expect(r.reverse2('   Jonas')).toEqual('sanoJ   ');
 });
 
